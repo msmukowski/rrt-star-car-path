@@ -1,0 +1,9 @@
+<launch>
+
+<include file="$(find rrt_star_car_path)/launch/map_medium.launch" />
+
+<node name="graph_search" pkg="rrt_star_car_path" type="rrt_star.py" output="screen" />
+<node name="points" pkg="rrt_star_car" type="points.py" output="screen" />
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find rrt_star_car_path)/launch/config.rviz" />
+
+</launch>

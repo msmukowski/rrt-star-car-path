@@ -1,0 +1,3 @@
+<launch>
+<node name="map" pkg="map_server" type="map_server" args="$(find rrt_star_car_path)/maps/map_medium.yaml" />
+</launch>
