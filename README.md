@@ -1,4 +1,7 @@
 <p><h1>RRT* university project for car path planning</h1></p>
+<p></p>
+<p style="font-size:18px;">Goal: The algorithm must find the path on the map taking into account the kinematics of the car</p>
+<p></p>
 <p> to run rrt*: roslaunch rrt_star_car_path rrt_star.launch</p>
 <p> to run rrt* + car model: roslaunch rrt_star_car_path rrt_star_car.launch</p>
 <p> Runs with preconfigured Rviz</p>
