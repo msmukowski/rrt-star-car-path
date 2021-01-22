@@ -49,19 +49,6 @@ while not rospy.is_shutdown():
     pub.publish(speed)
     r.sleep()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 #!/usr/bin/env python
 import rospy as rp
 from grid_map import GridMap
